@@ -1,34 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <div>
-    <form action="redirect.html">
-        <label for="fullName">Your Name</label> <br>
-        <input type="text" name="fullName"><br><br>
-    
-        <label for="gender">Your Gender</label> <br>
-        <input type="radio" name="gender" value="male">Male<br>
-        <input type="radio" name="gender" value="female">Female<br><br>
-    
-        <label for="email">Your E-mail</label> <br>
-        <input type="text" name="email"><br>
-        <br>
-    
-        <label for="comments">Your Feedback</label> <br>
-        <textarea name="comments"></textarea><br><br>
-    
-        <input type="submit" value="Submit" id="btn">
-        <input type="reset" value="Clear" id="btn">
-    </form>
-    <br><br><br><br><br>   
-    </div>
-   
-</body>
-</html>
+div{
+    text-align: center;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    background:url("https://cdn.pixabay.com/photo/2020/04/16/11/12/background-5050209_960_720.png");
+    width: 50%;
+    font-family:'Segoe UI';
+}
+
+form{
+    position: relative;
+    top:20px;
+    left:50px;
+}
+
+#btn{
+    font-size: large;
+    background-color: rgb(162, 0, 146);
+    color: rgb(255, 255, 255);
+}
