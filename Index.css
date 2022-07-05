@@ -1,42 +1,38 @@
-body{
-  background-color: rgba(169, 38, 189, 0.575);
-  border:1px solid red
- 
+#mainDiv{
+    border:2px solid blue;
+    padding:10px;
 }
 
-form{
-  border:10px solid rgb(47, 209, 206);
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  flex-direction:column;
+}
+#submits {
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
   }
-
-body{
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-input[type=submit] {
-  background-color: green;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-input[type=reset] {
-  background-color: red;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: darkgreen;
-  color: lightblue;
-}
-
-input[type=reset]:hover {
-  background-color: white;
-  color: blue;
-}
+  
+  input[type=reset] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: darkgreen;
+    color: lightblue;
+  }
+  
+  input[type=reset]:hover {
+    background-color: white;
+    color: blue;
+  }
 
